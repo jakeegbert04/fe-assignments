@@ -5,10 +5,15 @@ html, body {
   // border: solid red 1px;
 }
 button {
-  padding: 20px;
+  padding: 15px 50px;
   background-color: transparent;
   border: solid black 3px;
   border-radius: 10px;
+
+  &:hover {
+    border:solid white 1px;
+    color: white;
+  }
 }
 .whole-page {
   height: 100%;
@@ -28,6 +33,7 @@ button {
     padding-left: 10%;
     font-size: 22px;
     height: 5%;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.5);
 
   }
 
