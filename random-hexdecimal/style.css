@@ -21,8 +21,11 @@ button {
   color: rgb(73, 166, 233);
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   background-color: white;
   padding-left: 10%;
+  font-size: 22px;
+  height: 5%;
 }
 .whole-page .main-container {
   height: 100%;
@@ -41,4 +44,8 @@ button {
   padding: 0px 20px;
   gap: 10px;
   font-size: 20px;
+  align-items: center;
+}
+.whole-page .main-container .color-name div {
+  color: rgb(73, 166, 233);
 }/*# sourceMappingURL=style.css.map */
