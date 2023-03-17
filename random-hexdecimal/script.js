@@ -22,13 +22,65 @@ function randomLetter() {
 }
 
 
+
 function hexaDeciaml() {
   const functionArray = [randomNum(), randomLetter()]
   let hexDecimalVar = "#"
   for(let i = 0; i < 6; i++) {
     hexDecimalVar += functionArray[Math.floor(Math.random() * functionArray.length)]
   }
-  return hexDecimalVar
+  document.body.style.backgroundColor = hexDecimalVar;
+  const rootEl = document.getElementById("hex-color")
+  const p = document.createElement("p")
+  const pText = document.createTextNode(hexDecimalVar)
+  const div = document.createElement("div")
+  let firstTime = true;
+
+  if(firstTime === true) {
+    div.appendChild(p)
+    p.appendChild(pText)
+    
+    console.log(p)
+    console.log(div)
+    rootEl.appendChild(div)
+    firstTime = false
+  } else {
+    div.remove()
+    div.appendChild(p)
+    p.appendChild(pText)
+    
+    console.log(p)
+    console.log(div)
+    rootEl.appendChild(div)
+  }
+  console.log(firstTime)
+  return hexDecimalVar;
 }
-console.log(hexaDeciaml())
-document.body.style.backgroundColor = hexaDeciaml()
+
+// function printHex() {
+//   const rootEl = document.getElementById("hex-color")
+//   const p = document.createElement("p")
+//   const pText = document.createTextNode(hexaDeciaml())
+//   const div = document.createElement("div")
+//   div.remove()
+//   div.appendChild(p)
+//   p.appendChild(pText)
+  
+//   console.log(p)
+//   console.log(div)
+//   rootEl.appendChild(div)
+// }
+
+
+
+// console.log(hexaDeciaml())
+
+// const hexColor = hexaDeciaml()
+// function render(color) {
+  
+
+  
+// }
+
+// console.log(hexColor)
+

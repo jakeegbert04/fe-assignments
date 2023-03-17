@@ -1,5 +1,56 @@
 html, body {
-  max-height: 100%;
-  max-width: 100%;
+  height: 100%;
+  width: 100%;
   margin: 0;
+  // border: solid red 1px;
+}
+button {
+  padding: 20px;
+  background-color: transparent;
+  border: solid black 3px;
+  border-radius: 10px;
+}
+.whole-page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  // border: solid green 1px;
+  
+  
+  .navbar {
+    // width: 100%;
+    color: rgb(73 166 233);
+    display:flex;
+    justify-content: flex-start;
+    background-color: white;
+    padding-left: 10%;
+
+  }
+
+  .main-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    // padding: 10px;
+    // border: solid yellow 1px;
+
+    .color-name {
+      display: flex;
+      background-color: black;
+      color: white;
+      // border: solid red 1px;
+      border-radius: 10px;
+      padding: 0px 20px;
+      gap: 10px;
+      font-size: 20px;
+    }
+
+    
+  }
+ 
 }
