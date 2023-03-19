@@ -1,0 +1,21 @@
+@media (max-width: 750px) {
+  .links {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    a {
+      display: none;
+    }
+    p {
+      display:inline-block;
+    }
+  }
+}
+
+@media (min-width: 750px) {
+  .dropdown {
+    p {
+      display: none;
+    }
+  }
+}

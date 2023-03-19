@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dynamic Navbar</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
   <script src="https://kit.fontawesome.com/e774f749ce.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -15,14 +16,14 @@
         <p><i class="fa-solid fa-user"></i></p>
       </div>
       <div class="navbar-right">
-        <div class="dropdown">
-          <a href=""><i class="fa-solid fa-bars"></i></a>
-        </div>
         <div class="links">
           <a href="">Home</a>
           <a href="">About</a>
           <a href="">Collection</a>
           <a href="">Products</a>
+        </div>
+        <div class="dropdown">
+          <p href=""><i onclick="switchIcon(this)" class="fa-solid fa-bars"></i></p>
         </div>
       </div>
     </div>

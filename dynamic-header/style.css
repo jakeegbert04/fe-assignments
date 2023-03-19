@@ -18,20 +18,21 @@ html, body {
   align-items: center;
   justify-content: space-between;
 }
-.whole-page .navbar .navbar-left {
-  padding-left: 25px;
-}
-.whole-page .navbar .navbar-left p {
+.whole-page .navbar p {
   font-size: 20px;
   padding: 8px 10px;
 }
-.whole-page .navbar .navbar-left p:hover {
+.whole-page .navbar p:hover {
   cursor: pointer;
   background-color: grey;
+}
+.whole-page .navbar .navbar-left {
+  padding-left: 25px;
 }
 .whole-page .navbar .navbar-right {
   display: flex;
   padding-right: 25px;
+  align-items: center;
 }
 .whole-page .navbar .navbar-right a {
   padding: 10px;
