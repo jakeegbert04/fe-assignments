@@ -39,6 +39,7 @@ html, body {
   text-decoration: none;
   color: white;
   font-size: 20px;
+  float: left;
 }
 .whole-page .navbar .navbar-right a:hover {
   background-color: grey;

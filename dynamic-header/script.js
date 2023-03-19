@@ -11,11 +11,6 @@ Hint:
  - start with the pieces (html skeleton, styles, media queries, js)
  - don't get hung up on 1 piece
 */
-// const dropdown = document.getElementsByClassName("navbar-icon")
-// console.log(dropdown)
-
-// function iconAddX() {
-//   const dropdown = document.getElementsByClassName("fa-bars");
 
   
 //   const boxPressed = (e) => {
@@ -42,6 +37,12 @@ Hint:
 function switchIcon(x) {
   x.classList.toggle("fa-xmark")
 }
+
+const dropdown = document.getElementsByClassName("navbar-icon")
+
+
+
+
 
 // const handleBtnClick = e => {
 //   if(e.target.innerText === "On") {

@@ -4,7 +4,10 @@
     flex-direction: column;
     // align-items: center;
     a {
-      display: none;
+      display: block;
+      // position:fixed;
+      
+      // text-align: left;
     }
     p {
       display:inline-block;
