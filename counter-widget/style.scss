@@ -1,0 +1,65 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+button {
+width: 100px;
+height: 50px;
+font-size: 15px;
+
+}
+.whole-page {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  .navbar {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(69, 69, 69);
+    color: rgb(39, 87, 230);
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+  }
+    .main-container {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      
+
+      .number-display {
+        // border: solid red 1px;
+        height: 100px;
+        width: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 100px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 2px rgba(255,255,255,0.5);
+      }
+      
+      .all-buttons {
+        display: flex;
+        gap: 50px;
+
+        button {
+          border: none;
+          border-radius: 10px;
+          box-shadow: 0px 0px 5px 2px rgba(255,255,255,0.5);
+
+          &:hover {
+            cursor: pointer;
+            background-color: rgb(205, 202, 202);
+          }
+        }
+      }
+    }
+}
