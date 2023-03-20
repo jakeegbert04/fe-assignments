@@ -35,8 +35,8 @@ button {
   gap: 50px;
 }
 .whole-page .main-container .number-display {
-  height: 100px;
-  width: 75px;
+  height: 120px;
+  width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
