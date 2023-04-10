@@ -25,8 +25,8 @@ export default class Counter extends Component {
 
   render() {
     return (
-      <div className="counter-contaimer">
-        <div className="display-number"><h1>{this.state.count}</h1></div>
+      <div className="main-container counter">
+        <div className="display display-number"><h1>{this.state.count}</h1></div>
         <CounterControls
         handleClickAdd={this.handleClickAdd}
         handleClickMinus={this.handleClickMinus}
