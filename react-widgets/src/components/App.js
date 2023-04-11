@@ -1,5 +1,6 @@
 import Counter from "./counter/Counter"
-import GreetingToggle from "./greetingToggle/GreetingToggle";
+import GreetingToggle from "./GreetingToggle";
+import ShowHideToggle from "./ShowHideToggle"
 
 import "../styles/app.scss"
 
@@ -8,7 +9,7 @@ export default function App() {
     <div className="App">
       <Counter />
       <GreetingToggle />
-      <Counter />
+      <ShowHideToggle />
       <Counter />
       <Counter />
       <Counter />
