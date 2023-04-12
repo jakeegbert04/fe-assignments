@@ -4,6 +4,7 @@ import {
   Route
 } from "react-router-dom";
 
+import "../styles/main.scss"
 import Navbar from "./navigation/Navbar"
 import Home from "./pages/Home"
 import Swapi from "./pages/Swapi"
