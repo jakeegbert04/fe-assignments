@@ -16,10 +16,12 @@ export default function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/swapi" component={Swapi} />
-        </Switch>
+        <div className=" content-container">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/swapi" component={Swapi} />
+          </Switch>
+        </div>
       </Router>
     </div>
   );
