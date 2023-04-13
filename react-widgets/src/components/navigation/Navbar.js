@@ -10,7 +10,8 @@ export default function Navbar() {
       <NavLink to="/font-sizer">Font Sizer</NavLink>
       <NavLink to="/text-align">Text Align</NavLink>
       <NavLink to="/clock">Clock</NavLink>
-
+      <NavLink to="/color-change">Change Color</NavLink>
+      <NavLink to="/color-slider">Color Slider</NavLink>
     </div>
   );
 }

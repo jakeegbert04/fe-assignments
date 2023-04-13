@@ -10,6 +10,8 @@ import ShowHideToggle from "./pages/ShowHideToggle";
 import FontSizer from "./pages/FontSizer";
 import TextAligner from "./pages/TextAligner";
 import Clock from "./pages/clock/Clock"
+import ColorChanger from "./pages/ColorChanger";
+import ColorSlider from "./pages/ColorSlider";
 
 
 export default function App() {
@@ -25,6 +27,8 @@ export default function App() {
           <Route path="/font-sizer" component={FontSizer}/>
           <Route path="/text-align" component={TextAligner}/>
           <Route path="/clock" component={Clock}/>
+          <Route path="/color-change" component={ColorChanger}/>
+          <Route path="/color-slider" component={ColorSlider}/>
         </Switch>
       </Router>
     </div>

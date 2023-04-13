@@ -1,19 +1,26 @@
 import { useState } from "react";
 
+import Lifecycle from "./Lifecycle";
 
 export default function GreetingToggle() {
-  const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(false);
 
   function handleToggle() {
-    setToggle((prevState) => (prevState = !prevState))
+    setToggle((prevState) => (prevState = !prevState));
   }
 
-    
-    return (
-      <div className="main-container greeting-toggle">
-        <div className="display display-greeting">{toggle ? "hide me" : ""}</div>
-        <button onClick={this.handleToggle}>{toggle ? "hide me" : "show me"}</button>
+  function dateTimer() {
+    setInterval(() => {
+      console.log(new Date().toLocaleTimeString())
+    }, 1000)
+  }
 
-      </div>
-    )
+  return (
+    <div className="main-container greeting-toggle">
+      {toggle && <Lifecycle />}
+      <button onClick={() => handleToggle()}>
+        {toggle ? "hide me" : "show me"}
+      </button>
+    </div>
+  );
 }
