@@ -18,9 +18,13 @@ export default class Counter extends Component {
   }
 
   handleClickMinus() {
-    this.setState((prevState => ({count: prevState.count - 1})))
+    if (this.state.count > 0) {
+      this.setState((prevState => ({count: prevState.count - 1})))
+    }
 
   }
+ 
+
 
 
   render() {
@@ -30,6 +34,7 @@ export default class Counter extends Component {
         <CounterControls
         handleClickAdd={this.handleClickAdd}
         handleClickMinus={this.handleClickMinus}
+        // count={this.state.count}
         />
   
       </div>

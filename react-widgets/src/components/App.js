@@ -1,6 +1,7 @@
 import Counter from "./counter/Counter"
 import GreetingToggle from "./GreetingToggle";
 import ShowHideToggle from "./ShowHideToggle"
+import FontSizer from "./FontSizer"
 
 import "../styles/app.scss"
 
@@ -10,7 +11,7 @@ export default function App() {
       <Counter />
       <GreetingToggle />
       <ShowHideToggle />
-      <Counter />
+      <FontSizer />
       <Counter />
       <Counter />
       <Counter />
