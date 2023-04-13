@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
-import { Component } from "react";
+import { useState } from "react";
 
 export default function FontSizer() {
-  const [size, setSize] = useState(5);
+  const [size, setSize] = useState(100);
 
 
   function handleGrow() {
