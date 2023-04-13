@@ -9,6 +9,8 @@ export default function Navbar() {
       <NavLink to="/toggle">Show Hide</NavLink>
       <NavLink to="/font-sizer">Font Sizer</NavLink>
       <NavLink to="/text-align">Text Align</NavLink>
+      <NavLink to="/clock">Clock</NavLink>
+
     </div>
   );
 }

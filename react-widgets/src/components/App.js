@@ -4,11 +4,12 @@ import "../styles/main.scss"
 
 import Navbar from "./navigation/Navbar";
 import Home from "./pages/Home";
-import Counter from "./counter/Counter";
+import Counter from "./pages/counter/Counter";
 import GreetingToggle from "./pages/GreetingToggle";
 import ShowHideToggle from "./pages/ShowHideToggle";
 import FontSizer from "./pages/FontSizer";
 import TextAligner from "./pages/TextAligner";
+import Clock from "./pages/clock/Clock"
 
 
 export default function App() {
@@ -20,9 +21,10 @@ export default function App() {
           <Route exact path="/" component={Home}/>
           <Route path="/counter" component={Counter}/>
           <Route path="/greeting" component={GreetingToggle}/>
-          <Route exact path="/toggle" component={ShowHideToggle}/>
-          <Route exact path="/font-sizer" component={FontSizer}/>
-          <Route exact path="/text-align" component={TextAligner}/>
+          <Route path="/toggle" component={ShowHideToggle}/>
+          <Route path="/font-sizer" component={FontSizer}/>
+          <Route path="/text-align" component={TextAligner}/>
+          <Route path="/clock" component={Clock}/>
         </Switch>
       </Router>
     </div>
