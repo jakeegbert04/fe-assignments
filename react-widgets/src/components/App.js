@@ -9,7 +9,7 @@ import GreetingToggle from "./pages/GreetingToggle";
 import ShowHideToggle from "./pages/ShowHideToggle";
 import FontSizer from "./pages/FontSizer";
 import TextAligner from "./pages/TextAligner";
-import Clock from "./pages/clock/Clock"
+import Clock from "./pages/Clock"
 import ColorChanger from "./pages/ColorChanger";
 import ColorSlider from "./pages/ColorSlider";
 
